@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Game Collection</h1>
+            <p>Click on a game to learn more</p>
+        </header>
+
+        <div class="games-grid">
+            <div class="game-card" data-game="project-infinity">
+                <div class="game-icon">&#8734;</div>
+                <h2>Project Infinity</h2>
+            </div>
+
+            <div class="game-card" data-game="boids">
+                <div class="game-icon">&#9670;</div>
+                <h2>Boids</h2>
+            </div>
+
+            <div class="game-card" data-game="chopping-choppers">
+                <div class="game-icon">&#9992;</div>
+                <h2>Chopping Choppers</h2>
+            </div>
+
+            <div class="game-card" data-game="gravity-golf">
+                <div class="game-icon">&#9898;</div>
+                <h2>Gravity Golf</h2>
+            </div>
+
+            <div class="game-card" data-game="requests">
+                <div class="game-icon">&#9997;</div>
+                <h2>Feature Requests</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Modal -->
+    <div id="game-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal">&times;</button>
+            <div class="modal-icon" id="modal-icon"></div>
+            <h2 id="modal-title"></h2>
+            <span class="status-badge" id="modal-status"></span>
+            <p id="modal-description"></p>
+            <a id="modal-link" href="#" target="_blank" class="play-btn">Play Now</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
