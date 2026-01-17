@@ -15,7 +15,7 @@ const games = {
     },
     'chopping-choppers': {
         title: 'Chopping Choppers',
-        icon: '&#9992;',
+        icon: '&#129683;',
         status: 'In Progress, Taking Requests',
         description: 'An action-packed helicopter combat game where you pilot your chopper through intense battles. Dodge enemy fire, collect power-ups, and take down waves of opponents in this fast-paced aerial shooter.',
         url: 'https://chopping-choppers.vercel.app'
