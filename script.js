@@ -3,21 +3,21 @@ const games = {
         title: 'Project Infinity',
         icon: '&#8734;',
         status: 'In Progress, Taking Requests',
-        description: 'An endless procedural adventure game where the world generates infinitely as you explore. Discover new terrains, collect resources, and see how far you can go in this ever-expanding universe.',
+        description: 'An alchemy crafting game where you combine elements to discover new ones. Start with water, fire, earth, and wind, then experiment to unlock hundreds of combinations. Build machines to automate production and research new discoveries.',
         url: 'https://project-infinity-one.vercel.app'
     },
     'boids': {
         title: 'Boids',
         icon: '&#9670;',
         status: 'In Progress, Taking Requests',
-        description: 'A mesmerizing flocking simulation based on Craig Reynolds\' boids algorithm. Watch as hundreds of entities move together in beautiful, emergent patterns following simple rules of separation, alignment, and cohesion.',
+        description: 'A living ecosystem simulation featuring evolving creatures with genetic mutations. Watch boids flock together, evade predators, and develop traits like camouflage, speed, and even the ability to fight back. Features day/night cycles, shelters, and natural selection.',
         url: 'https://boids-pi.vercel.app'
     },
     'chopping-choppers': {
         title: 'Chopping Choppers',
         icon: '&#129683;',
         status: 'In Progress, Taking Requests',
-        description: 'An action-packed helicopter combat game where you pilot your chopper through intense battles. Dodge enemy fire, collect power-ups, and take down waves of opponents in this fast-paced aerial shooter.',
+        description: 'An idle tree chopping game set in a procedural forest. Chop trees, sell wood, and hire workers to automate your lumber empire. Upgrade your axe, speed, and capacity while discovering rare tree types from common pines to legendary magic trees.',
         url: 'https://chopping-choppers.vercel.app'
     },
     'gravity-golf': {
