@@ -4,35 +4,35 @@ const games = {
         icon: '&#8734;',
         status: 'In Progress, Taking Requests',
         description: 'An alchemy crafting game where you combine elements to discover new ones. Start with water, fire, earth, and wind, then experiment to unlock hundreds of combinations. Build machines to automate production and research new discoveries.',
-        url: 'https://project-infinity-one.vercel.app'
+        url: 'https://project-infinity.qeadw.fun'
     },
     'boids': {
         title: 'Boids',
         icon: '&#9670;',
         status: 'In Progress, Taking Requests',
         description: 'A living ecosystem simulation featuring evolving creatures with genetic mutations. Watch boids flock together, evade predators, and develop traits like camouflage, speed, and even the ability to fight back. Features day/night cycles, shelters, and natural selection.',
-        url: 'https://boids-pi.vercel.app'
+        url: 'https://boids.qeadw.fun'
     },
     'chopping-choppers': {
         title: 'Chopping Choppers',
         icon: '&#129683;',
         status: 'In Progress, Taking Requests',
         description: 'An idle tree chopping game set in a procedural forest. Chop trees, sell wood, and hire workers to automate your lumber empire. Upgrade your axe, speed, and capacity while discovering rare tree types from common pines to legendary magic trees.',
-        url: 'https://chopping-choppers.vercel.app'
+        url: 'https://chopping-choppers.qeadw.fun'
     },
     'gravity-golf': {
         title: 'Gravity Golf',
         icon: '&#9898;',
         status: 'In Progress, Taking Requests',
         description: 'A unique twist on golf where gravity is your friend and foe. Navigate your ball through space-themed courses with planetary gravity wells, black holes, and orbital mechanics. Physics-based fun!',
-        url: 'https://gravity-golf.vercel.app'
+        url: 'https://gravity-golf.qeadw.fun'
     },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
         status: 'In Progress, Taking Requests',
         description: 'Have an idea for a new game or feature? Submit your requests here! Vote on other suggestions and help shape what gets built next. Your feedback drives development.',
-        url: 'https://requests-page.vercel.app'
+        url: 'https://requests-page.qeadw.fun'
     }
 };
 
