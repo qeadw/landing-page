@@ -98,20 +98,12 @@ if (secretTrigger && secretImage) {
             return;
         }
 
-        // Find best position for the image
-        const vw = window.innerWidth;
-        const vh = window.innerHeight;
-
-        // Get image dimensions (use natural size capped at 80% viewport)
-        const imgWidth = Math.min(secretImage.naturalWidth, vw * 0.8);
-        const imgHeight = Math.min(secretImage.naturalHeight, vh * 0.8);
-
-        // Center it in the viewport
-        const left = (vw - imgWidth) / 2;
-        const top = (vh - imgHeight) / 2;
-
-        secretImage.style.left = left + 'px';
-        secretImage.style.top = top + 'px';
+        // Position in top right, small and out of the way
+        secretImage.style.right = '10px';
+        secretImage.style.top = '10px';
+        secretImage.style.left = 'auto';
+        secretImage.style.maxWidth = '200px';
+        secretImage.style.maxHeight = '200px';
         secretImage.style.display = 'block';
         secretVisible = true;
     });
