@@ -27,6 +27,13 @@ const games = {
         description: 'A unique twist on golf where gravity is your friend and foe. Navigate your ball through space-themed courses with planetary gravity wells, black holes, and orbital mechanics. Physics-based fun!',
         url: 'https://gravity-golf.qeadw.fun'
     },
+    'plant-life': {
+        title: 'Plant Life',
+        icon: '&#127793;',
+        status: 'In Progress, Taking Requests',
+        description: 'A Progress Knight-style idle game where you play as a magical plant. Grow from a seedling to an ancient tree across multiple life cycles. Absorb water, photosynthesize, and channel essence while unlocking new abilities. Rebirth to gain permanent multipliers!',
+        url: 'https://plant-life.qeadw.fun'
+    },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
