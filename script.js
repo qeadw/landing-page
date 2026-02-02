@@ -34,6 +34,13 @@ const games = {
         description: 'A Progress Knight-style idle game where you play as a magical plant. Grow from a seedling to an ancient tree across multiple life cycles. Absorb water, photosynthesize, and channel essence while unlocking new abilities. Rebirth to gain permanent multipliers!',
         url: 'https://plant-life.qeadw.fun'
     },
+    'rank-roller': {
+        title: 'Rank Roller',
+        icon: '&#127922;',
+        status: 'In Progress, Taking Requests',
+        description: 'A gacha-style rolling game where you collect rare ranks. Roll the dice, upgrade your luck, points, and speed multipliers, and work toward filling your 100-rank catalogue. How rare can you go?',
+        url: 'https://rank-roller.qeadw.fun'
+    },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
