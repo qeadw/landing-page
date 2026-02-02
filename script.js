@@ -41,6 +41,13 @@ const games = {
         description: 'A gacha-style rolling game where you collect rare ranks. Roll the dice, upgrade your luck, points, and speed multipliers, and work toward filling your 100-rank catalogue. How rare can you go?',
         url: 'https://rank-roller.qeadw.fun'
     },
+    'combo-surge': {
+        title: 'Combo Surge',
+        icon: '&#9889;',
+        status: 'In Progress, Taking Requests',
+        description: 'A neon rhythm game where you build combos to unlock levels and earn upgrades. Keep the streak alive, hit the beats, and surge through increasingly challenging stages.',
+        url: 'https://combo-surge.qeadw.fun'
+    },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
