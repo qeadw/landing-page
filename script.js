@@ -48,6 +48,13 @@ const games = {
         description: 'A neon rhythm game where you build combos to unlock levels and earn upgrades. Keep the streak alive, hit the beats, and surge through increasingly challenging stages.',
         url: 'https://combo-surge.qeadw.fun'
     },
+    'mage-battle': {
+        title: 'Mage Battle',
+        icon: '&#9876;',
+        status: 'Multiplayer',
+        description: 'A real-time multiplayer arena battle game! Cast magic missiles, dash through enemies, and unleash fireballs in isometric combat. Fight other players, track your kills and deaths, and compete on the leaderboard. WASD to move, SPACE to punch, CLICK to cast spells!',
+        url: 'https://multiplayer-test.averyopela1.workers.dev'
+    },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
