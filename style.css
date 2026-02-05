@@ -223,6 +223,44 @@ header p {
     box-shadow: 0 5px 25px rgba(74, 158, 255, 0.4);
 }
 
+/* Discord Section */
+.discord-section {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.discord-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #5865F2;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(88, 101, 242, 0.3);
+}
+
+.discord-btn:hover {
+    background: #4752c4;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(88, 101, 242, 0.4);
+}
+
+.discord-icon {
+    flex-shrink: 0;
+}
+
+.discord-subtext {
+    margin-top: 0.75rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 2rem 1rem;
