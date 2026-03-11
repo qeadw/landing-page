@@ -277,22 +277,31 @@ header p {
     left: -135px;
 }
 
-/* Disclaimer (separate location) */
+/* Disclaimers (between ads and content) */
 .ad-disclaimer {
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
-    gap: 8px;
+    flex-direction: column;
+    align-items: center;
     font-size: 0.85rem;
     font-weight: bold;
     color: #555;
     z-index: 100;
+    line-height: 1.5;
+}
+
+.disclaimer-right {
+    right: 100px;
+}
+
+.disclaimer-left {
+    left: 100px;
 }
 
 .ad-disclaimer span {
-    display: inline;
+    display: block;
 }
 
 @media (max-width: 1400px) {
