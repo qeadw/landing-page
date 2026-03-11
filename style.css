@@ -273,6 +273,16 @@ header p {
     right: -319px;
 }
 
+.ad-disclaimer {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+    color: #666;
+    white-space: nowrap;
+}
+
 @media (max-width: 1400px) {
     .side-ad {
         display: none;
