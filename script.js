@@ -55,6 +55,20 @@ const games = {
         description: 'A real-time multiplayer arena battle game! Cast magic missiles, dash through enemies, and unleash fireballs in isometric combat. Fight other players, track your kills and deaths, and compete on the leaderboard. WASD to move, SPACE to punch, CLICK to cast spells!',
         url: 'https://multiplayer-test.averyopela1.workers.dev'
     },
+    'void-sector': {
+        title: 'Void Sector',
+        icon: '&#9681;',
+        status: 'In Progress, Taking Requests',
+        description: 'A space survival game set in the void. Navigate through dangerous sectors, fight alien threats, and upgrade your ship to push deeper into unknown territory.',
+        url: 'https://voidsector.qeadw.fun'
+    },
+    'nova': {
+        title: 'NOVA',
+        icon: '&#10041;',
+        status: 'In Progress, Taking Requests',
+        description: 'A minimalist arena survival clicker. Click anywhere to create expanding shockwave novas that destroy incoming enemies. Survive waves, pick upgrades, chain crits, and climb the leaderboard. Simple to learn, hard to master.',
+        url: 'https://nova.qeadw.fun'
+    },
     'requests': {
         title: 'Feature Requests',
         icon: '&#9997;',
